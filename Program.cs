@@ -7,7 +7,7 @@
             int[] tal = { 5, 10, 15, 20 };
             int summa = 0;
 
-            // *Bugg 1, i <= tal.Length
+            // *Bugg 1, i <= tal.Length ändrad till i < tal.Length
             for (int i = 0; i < tal.Length; i++)
                 // *Bugg 2, saknade { } i for loopen
             {
